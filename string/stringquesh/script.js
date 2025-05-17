@@ -1,5 +1,11 @@
+let s = "hello"
+s = s.concat(" world")
+console.log(s)
+
+
+
 // Traversing
-// let str = "manish"
+// let str = "1,2,3,4anish"
 // let neelem = ''
 // for( let arr of str){
 //     neelem = neelem + arr
@@ -25,6 +31,7 @@
 
 // Deletion
 // let str = "manish"
+
 // console.log(str.replace("m",""))
 
 
@@ -166,26 +173,183 @@
 
 
 
-let nums = [1,5,0,3,5]
-function abcd(){
+// let nums = [1,5,0,3,5]
+// function abcd(){
 
-    let count = 0;
+//     let count = 0;
 
-    while(true){
-        let nonZero = nums.filter((elem)=>elem !== 0)
-        if(nonZero === 0) break;
-       let minimum = Math.min(...nonZero);
-    //    console.log(minimum)
-    nums = nums.map((items)=>{
-            items>0 ? nums - minimum : 0;
-    })
-    count++
+//     while(true){
+//         let nonZero = nums.filter((elem)=>elem !== 0)
+//         if(nonZero === 0) break;
+//        let minimum = Math.min(...nonZero);
+//     //    console.log(minimum)
+//         nums = nums.map((items)=>{
+//             items>0 ? nums - minimum : 0;
+//     })
+//     count++
     
-    }
+//     }
 
-    return count;
-}
+//     return count;
+// }
 
-abcd(nums)
-console.log(count)
+// abcd(nums)
+// console.log(count)
+
+
+
+
+// let str = "manisdwqdweweh"
+// let arr = new Array(26).fill(0)
+// console.log(arr)
+
+
+// for(let i=0; i<=str.length-1;i++){
+//     let ind = str.charCodeAt(i)
+//     arr[ind - 97]++
+   
+// }
+// for(let i=0; i<=arr.length-1;i++){
+//     if(arr[i]>0){
+//         console.log(String.fromCharCode(i + 97) +" =", arr[i])
+//     }
+   
+// }
+// console.log(arr)
+
+
+// let s1 = "abc"
+// let s2 = "bca"
+
+// let arr1 = new Array(26).fill(0)
+// let arr2 = new Array(26).fill(0)
+// let arr;
+// for(let i=0; i<=s1.length-1;i++){
+//         let ind = s1.charCodeAt(i)
+//        arr = arr1[ind - 97]++
+       
+//     }
+
+
+//     console.log(arr1)
+
+
+//     for(let i=0; i<=s2.length-1;i++){
+//         let ind = s2.charCodeAt(i)
+//        arr = arr2[ind - 97]++
+       
+//     }
+
+//     console.log(arr2)
+
+//     for(let i=0; i<=arr.length-1;i++){
+       
+       
+//     }
+    
+
+
+
+// let str = 'manish';
+
+
+// for(let i=0;i<=str.length-1; i++){
+//       console.log(str[i])
+// }
+
+
+
+// let strr = ''
+// for(let i=str.length-1; i>=0; i--){
+//       strr = strr + str[i]
+// }
+// console.log(strr)
+
+// let str = "hello manish adtani"
+// let spaceCount = 0;
+// let vowelCount = 0;
+// let constraints = 0;
+
+// for(let i=1; i<=str.length-1; i++){
+
+//       let char = str[i];
+//       if(char === " "){
+//             spaceCount++;
+
+//       }else if(char == "a" || char == "e" || char == "i" || char == "u" || char == "o" ||){
+//             vowelCount++
+//       }
+//       else{
+//             constraints++
+//       }
+
+// }
+// console.log(spaceCount)
+
+
+// let str = "ManIShdR"
+// let ans = ""
+// // let stm = String.fromCharCode()
+// for(let i=0; i<=str.length-1; i++){
+//       let char = str.charCodeAt(i)
+//       if(char>=65 && char<=90){
+//             ans = ans + String.fromCharCode(char+32)
+//       }else{
+//             ans = ans + String.fromCharCode(char-32)
+//       }
+// }
+
+// console.log(ans)
+
+
+
+// let str = "manish"
+// let strr = "";
+
+// // for(let i=0; i<=str.length-1; i++){
+         
+// //       strr = strr + str
+// //       console.log(str)
+   
+//       let i = 0
+//       if(str.charCodeAt(0) >= 97 && str.charCodeAt(str.length-1)<=122){
+//             for(let i=str.length-1; i>=0; i--){
+
+//             }
+//       }
+//       console.log(str[i])  
+      
+// // }
+// console.log(strr)
+
+
+
+
+// chat gpt queshtion
+// easy
+
+
+// let str = "manish";
+// let strr = "";
+// console.log(str.split("").reverse().join(""))
+// for(let i=str.length-1;i>=0; i--){
+//             strr = strr + str[i]
+// }
+// console.log(strr)
+
+
+
+
+// let str = "madamm"
+// let strr = ""
+// for(let i=str.length-1;i>=0; i--){
+//             strr = strr + str[i]
+// }
+// if(str === strr){
+//             console.log("isPalindrome");
+// }else{
+//       console.log("Not Palindrome")
+// }
+
+
 
